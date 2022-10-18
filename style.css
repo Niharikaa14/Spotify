@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Potta+One&display=swap');
+
+body {
+    background-color: black;
+
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+/*    position: sticky;  */
+
+}
+
+
+.navsticky{
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 18px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img {
+    height: 50px;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 23px 250px;
+    width: 70vw;
+    border-radius: 12px;
+    background-image: url('img/Mpic5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+
+.songList h1 {
+    margin: 15px 15px;
+}
+
+
+.songItemContainer {
+    margin-top: 20px;
+}
+
+.songItem {
+    margin: 12px 15px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /*    width: 70%;  */
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songItem img {
+    width: 60px;
+    margin: 0 22px;
+    border-radius: 50px;
+}
+
+.timestamp {
+    margin: 0 25px;
+    /*   margin-bottom: 20px; */
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+/* .songInfo{
+    width: -50px;
+    height: 0%;
+} */
